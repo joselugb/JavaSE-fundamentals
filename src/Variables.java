@@ -14,5 +14,17 @@ public class Variables {
         // Crear una variable de tipo String:
         String eployeeName = "Anahí Salgado";
         System.out.println("Variable eployeeName = "+eployeeName);
+
+        int numInt = 123456789;
+        long numLong = 1234567890L;
+
+        double numDouble = 123.456;
+        float numFloat = 123.456F;
+
+        var salaryVar = 1090; //int
+        var pension = salaryVar * 0.0945; //double
+        var totalSalary = salary - pension;//double
+
+        var employeeName = "JOSE LUIS";
     }
 }
